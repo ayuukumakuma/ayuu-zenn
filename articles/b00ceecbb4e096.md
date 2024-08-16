@@ -3,7 +3,7 @@ title: "ZedのAssistant PanelでOllamaを使う"
 emoji: "🦙"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: [zed, editor, ollama, llm]
-published: false
+published: true
 ---
 
 :::message
