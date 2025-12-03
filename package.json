@@ -6,7 +6,16 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "scripts": {
+    "lint": "textlint articles/**/*.md"
+  },
   "dependencies": {
     "zenn-cli": "^0.2.10"
+  },
+  "devDependencies": {
+    "textlint": "^15.4.1",
+    "textlint-filter-rule-allowlist": "^4.0.0",
+    "textlint-filter-rule-comments": "^1.2.2",
+    "textlint-rule-preset-ja-technical-writing": "^12.0.2"
   }
 }

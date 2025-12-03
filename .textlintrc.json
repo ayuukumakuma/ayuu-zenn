@@ -1,0 +1,18 @@
+{
+  "plugins": {},
+  "filters": {
+    "allowlist": {
+      "allow": ["/^::::/m"]
+    },
+    "comments": true
+  },
+  "rules": {
+    "preset-ja-technical-writing": {
+      "ja-no-weak-phrase": false,
+      "no-exclamation-question-mark": false,
+      "sentence-length": {
+        "max": 200
+      }
+    }
+  }
+}
