@@ -1,3 +1,6 @@
+_:
+  @just --list
+
 new:
   npx zenn new:article --publication-name smartcamp --published true
   just create-image-dir
@@ -8,3 +11,7 @@ create-image-dir:
   article_id=$(basename "$article_path" .md)
   mkdir -p "images/$article_id"
   echo "Created directory: images/$article_id"
+
+textlint file:
+  pnpm textlint {{file}}
+alias tl := textlint
