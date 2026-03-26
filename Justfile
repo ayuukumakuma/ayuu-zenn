@@ -2,8 +2,12 @@ _:
   @just --list
 
 new:
-  npx zenn new:article --publication-name smartcamp --published true
+  pnpm exec zenn new:article --publication-name smartcamp --published true
   just create-image-dir
+
+preview:
+  pnpm exec zenn preview --open
+alias p := preview
 
 create-image-dir:
   #!/usr/bin/env bash
