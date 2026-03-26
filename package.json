@@ -10,7 +10,7 @@
     "lint": "textlint articles/**/*.md"
   },
   "dependencies": {
-    "zenn-cli": "^0.2.10"
+    "zenn-cli": "^0.4.6"
   },
   "devDependencies": {
     "textlint": "^15.4.1",
